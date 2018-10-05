@@ -3,7 +3,7 @@ package com.example.gabriel.myapplication
 import android.graphics.Color
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.activity_university_list.*
 
 class LogInActivity  : AppCompatActivity(){
 
