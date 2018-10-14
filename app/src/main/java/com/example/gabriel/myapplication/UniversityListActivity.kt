@@ -12,8 +12,8 @@ class UniversityListActivity : AppCompatActivity() {
         setContentView(R.layout.activity_university_list)
 
         setTitle("Featured Universities")
-        recyclerView_videos.layoutManager = LinearLayoutManager(this)
-        recyclerView_videos.adapter = UniversityListAdapterAdapter()
+        recyclerView_university.layoutManager = LinearLayoutManager(this)
+        recyclerView_university.adapter = UniversityListAdapter()
 
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
     }
