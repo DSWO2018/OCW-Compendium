@@ -19,8 +19,8 @@ class HomeActivity  : AppCompatActivity(){
         }
 
         myAccountButton.setOnClickListener() {
-            Log.v("Message","Missing Account Activity Implementation")
-        }
+            val intent = Intent(this, Config_cuenta::class.java)
+            startActivity(intent)        }
 
         settingsButton.setOnClickListener() {
             Log.v("Message","Missing Settings Activity Implementation")
