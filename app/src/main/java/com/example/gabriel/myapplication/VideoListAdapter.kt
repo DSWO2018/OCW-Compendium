@@ -19,15 +19,15 @@ class VideoListAdapter: RecyclerView.Adapter<VideoViewHolder>() {
         return videoTitles.size
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): VideoViewHolder {
-        val layoutInflater = LayoutInflater.from(parent?.context)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): VideoViewHolder {
+        val layoutInflater = LayoutInflater.from(parent.context)
         val cellForRow = layoutInflater.inflate(R.layout.video_row, parent, false)
         return VideoViewHolder(cellForRow)
     }
 
-    override fun onBindViewHolder(holder: VideoViewHolder?, position: Int) {
+    override fun onBindViewHolder(holder: VideoViewHolder, position: Int) {
         val videoTitle = videoTitles.get(position)
-        holder?.view?.textView_video_title?.text = videoTitle
+        holder.view.textView_video_title.text = videoTitle
     }
 
 }

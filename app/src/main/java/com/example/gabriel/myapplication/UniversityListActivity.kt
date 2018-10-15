@@ -10,11 +10,9 @@ class UniversityListActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_university_list)
-
         setTitle("Featured Universities")
         recyclerView_university.layoutManager = LinearLayoutManager(this)
         recyclerView_university.adapter = UniversityListAdapter()
-
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
     }
 }

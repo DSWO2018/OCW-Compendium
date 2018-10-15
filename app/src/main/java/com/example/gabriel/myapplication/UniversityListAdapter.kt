@@ -26,17 +26,17 @@ class UniversityListAdapter: RecyclerView.Adapter<UniversityViewHolder>() {
         return universityNames.size
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): UniversityViewHolder {
-        val layoutInflater = LayoutInflater.from(parent?.context)
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UniversityViewHolder {
+        val layoutInflater = LayoutInflater.from(parent.context)
         val cellForRow = layoutInflater.inflate(R.layout.university_row, parent, false)
         return UniversityViewHolder(cellForRow)
     }
 
-    override fun onBindViewHolder(holder: UniversityViewHolder?, position: Int) {
+    override fun onBindViewHolder(holder: UniversityViewHolder, position: Int) {
         val videoTitle = universityNames.get(position)
         val universityLogo = universityLogos.get(position)
-        holder?.view?.textView_university_title?.text = videoTitle
-        holder?.view?.universityLogo?.setImageResource(universityLogo)
+        holder.view.textView_university_title.text = videoTitle
+        holder.view.universityLogo.setImageResource(universityLogo)
     }
 
 }
