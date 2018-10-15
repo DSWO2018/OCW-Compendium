@@ -26,27 +26,39 @@
                             android:layout_height="94dp"
                             android:orientation="horizontal">
 
-                        <ImageView
+                        <ImageButton
+                                android:id="@+id/face"
                                 android:layout_width="73dp"
                                 android:layout_height="74dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/face"/>
-                        <ImageView
+                                android:src="@drawable/face"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+                                android:id="@+id/insta"
+
                                 android:layout_width="79dp"
                                 android:layout_height="74dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/insta"/>
-                        <ImageView
+                                android:src="@drawable/insta"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+                                android:id="@+id/twit"
+
                                 android:layout_width="72dp"
                                 android:layout_height="76dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/twit"/>
-                        <ImageView
+                                android:src="@drawable/twit"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+                                android:id="@+id/goo"
+
                                 android:layout_width="79dp"
                                 android:layout_height="76dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/goo"/>
-                        <Button
+                                android:src="@drawable/goo"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+
 
                                 android:layout_width="66dp"
                                 android:layout_height="wrap_content"
@@ -55,7 +67,9 @@
                                 android:textSize="20sp"
                                 android:textStyle="bold"
                                 android:textColor="@color/colorPrimaryDark"
-                                android:id="@+id/X"/>
+                                android:id="@+id/X"
+                                android:backgroundTint="@android:color/white"/>
+
 
 
                     </LinearLayout>
