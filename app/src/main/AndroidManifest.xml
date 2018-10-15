@@ -14,6 +14,9 @@
         </activity>
         <activity android:name=".HomeActivity">
         </activity>
+        <activity android:name=".MainActivity">
+
+        </activity>
         <activity android:name=".CreateAccountActivity"
                   android:parentActivityName=".LogInActivity">
         </activity>
@@ -27,6 +30,16 @@
         </activity>
         <activity android:name=".VideoListActivity"
                   android:parentActivityName=".UniversityListActivity">
+        </activity>
+        <activity android:name=".ShareActivity">
+        </activity>
+        <activity android:name=".Config_cuenta">
+        </activity>
+        <activity android:name=".SalirSesion">
+        </activity>
+        <activity android:name=".AgregarComentarios">
+        </activity>
+        <activity android:name=".Cambiarcuenta">
         </activity>
     </application>
 

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".MainActivity">
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="match_parent"
+                          android:orientation="vertical">
+                <android.support.v7.widget.CardView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="10dp"
+                        android:elevation="10dp">
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="94dp"
+                            android:orientation="horizontal">
+
+                        <ImageButton
+                                android:id="@+id/face"
+                                android:layout_width="73dp"
+                                android:layout_height="74dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/face"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+                                android:id="@+id/insta"
+
+                                android:layout_width="79dp"
+                                android:layout_height="74dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/insta"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+                                android:id="@+id/twit"
+
+                                android:layout_width="72dp"
+                                android:layout_height="76dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/twit"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+                                android:id="@+id/goo"
+
+                                android:layout_width="79dp"
+                                android:layout_height="76dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/goo"
+                                android:backgroundTint="@android:color/white"/>
+                        <ImageButton
+
+
+                                android:layout_width="66dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="X"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:id="@+id/X"
+                                android:backgroundTint="@android:color/white"/>
+
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
+                            android:layout_marginTop="200dp">
+
+                        <EditText
+                                android:layout_width="271dp"
+                                android:layout_height="wrap_content"
+                                android:inputType="textPersonName"
+                                android:text="https://www.youtube.com/watch?v=6r8rcV5mA_c"
+                                android:ems="10"
+                                android:id="@+id/editText2"/>
+                        <Button
+
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Copiar"
+                                android:textSize="20sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimaryDark"
+                                android:id="@+id/Copiar"/>
+
+                    </LinearLayout>
+
+                </android.support.v7.widget.CardView>
+
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
